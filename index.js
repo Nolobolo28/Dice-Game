@@ -1,12 +1,8 @@
 var randomNumber1 = Math.floor(Math.random() * 6) + 1;
 
-var randomDiceImage = "dice" + randomNumber1 + ".png"; // This will select the correct image to display
+var randomImageSource1 = "images/dice" + randomNumber1 + ".png"; //This will create a new variable structuring the image that should be displayed
 
-var randomImageSource = "images/" + randomDiceImage; //This will create a new variable structuring the image that should be displayed
-
-var image1 = document.querySelectorAll("img")[0];
-
-image1.setAttribute("src", randomImageSource);
+document.querySelectorAll("img")[0].setAttribute("src", randomImageSource1);
 
 var randomNumber2 = Math.floor(Math.random() * 6) + 1;
 
