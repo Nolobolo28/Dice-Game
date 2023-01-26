@@ -2,7 +2,7 @@ var randomNumber1 = Math.floor(Math.random() * 6) + 1;
 
 var randomImageSource1 = "images/dice" + randomNumber1 + ".png"; //This will create a new variable structuring the image that should be displayed
 
-document.querySelectorAll("img")[0].setAttribute("src", randomImageSource1);
+document.querySelectorAll("img")[0].setAttribute("src", randomImageSource1); //This will set the first image's attribute to the random structured src
 
 var randomNumber2 = Math.floor(Math.random() * 6) + 1;
 
